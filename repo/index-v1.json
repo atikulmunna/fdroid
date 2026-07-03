@@ -1,0 +1,98 @@
+{
+  "repo": {
+    "timestamp": 1783099707000,
+    "version": 20002,
+    "name": "NativeNote",
+    "icon": "icon.png",
+    "address": "https://atikulmunna.github.io/fdroid/repo",
+    "description": "Private, offline notes with real on-device AI. Official repo for NativeNote by atikulmunna. Add this repo to F-Droid to get updates."
+  },
+  "requests": {
+    "install": [],
+    "uninstall": []
+  },
+  "apps": [
+    {
+      "authorName": "atikulmunna",
+      "categories": [
+        "Writing"
+      ],
+      "suggestedVersionCode": "6005",
+      "description": "NativeNote is a privacy-first, offline-first notepad. Your notes live entirely\non your device, and the AI features run as real models on the phone, not as\ncloud API calls. No account, no server, no tracking. It works in airplane mode.\n\nOn-device AI (Android):\n\n* Semantic search: find notes by meaning, not just keywords.\n* Summaries: condense a long note with an on-device summarization model.\n* Ask your notes: natural-language questions answered from your own notes, with\n  tap-through citations. Fully offline.\n* Voice to note: dictate with on-device speech recognition; audio stays local.\n\nEveryday note-taking: rich text, checklists, inline images, tags, folders, and\nMarkdown import/export.\n\nPrivacy: local storage, optional PIN lock, and passphrase-encrypted backup.\n\nFirst run: the on-device AI models (~114 MB) are not bundled; the app offers to\ndownload them once, then runs fully offline. Core note-taking works without them.",
+      "issueTracker": "https://github.com/atikulmunna/offline-ai-notepad/issues",
+      "license": "GPL-3.0-only",
+      "name": "NativeNote",
+      "sourceCode": "https://github.com/atikulmunna/offline-ai-notepad",
+      "summary": "Private offline notes with real on-device AI",
+      "added": 1783099481000,
+      "packageName": "com.atikulmunna.nativenote",
+      "lastUpdated": 1783099483000
+    }
+  ],
+  "packages": {
+    "com.atikulmunna.nativenote": [
+      {
+        "added": 1783099481000,
+        "apkName": "offline-ai-notepad-v1.3.1-arm64-v8a.apk",
+        "hash": "2b0e5e56640bc2b3d3302c0860f18d67a275c643769f7e7f373a4d89fe2b2208",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "com.atikulmunna.nativenote",
+        "sig": "3558d614e90ee897d19f05deaa915e61",
+        "signer": "d73a0cb34e8887f0fe2a801de83448f1787cdf8560379c92f5ddce3aefe199fe",
+        "size": 55383521,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "com.atikulmunna.nativenote.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 6005,
+        "versionName": "1.3.1"
+      },
+      {
+        "added": 1783099483000,
+        "apkName": "offline-ai-notepad-v1.3.1-armeabi-v7a.apk",
+        "hash": "6d7482fc75066472b6e6d7944bf716b44a9989c04a57e8957e6fefd8a20dd55b",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "armeabi-v7a"
+        ],
+        "packageName": "com.atikulmunna.nativenote",
+        "sig": "3558d614e90ee897d19f05deaa915e61",
+        "signer": "d73a0cb34e8887f0fe2a801de83448f1787cdf8560379c92f5ddce3aefe199fe",
+        "size": 45773685,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "com.atikulmunna.nativenote.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 5005,
+        "versionName": "1.3.1"
+      }
+    ]
+  }
+}

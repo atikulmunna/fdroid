@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fdroid>
+	<repo icon="icon.png" name="NativeNote" pubkey="30820501308202e9a0030201020208590569b54b75b518300d06092a864886f70d01010b0500302e3110300e060355040b1307462d44726f6964311a3018060355040313116e61746976656e6f74652d6664726f69643020170d3236303730323233353231315a180f32303533313131373233353231315a302e3110300e060355040b1307462d44726f6964311a3018060355040313116e61746976656e6f74652d6664726f696430820222300d06092a864886f70d01010105000382020f003082020a0282020100cb695fc8f962798c4c01d01a003286a4b8711c987923b5b41e619e11d9453fff91e28c4c89c6f3120196ec0554a458eb483862cb35272839ac1df61bc62bdae8b317db3a505c7b3226490f249958bf2038b6aada333bf2bf331d4ab661b077e253568b90b8a130c9c8a2b9afe820726dfdf1c7e2fb9afeaa0b0771126bc7c5c81edf4686ec8b41d8255d0fb20604166f695ef5362d8aab56a304df1b5f1e02376d32f9f9159bdb46a8040a15314506d2be0cd1c4a3dca35c5f6eb5b2c24819394787a4eaa16975ee8030610288e1e34df2e396b2a5726aa20becac93cd368d8969a6e6edfeb84a5e3088ef317ea325c3bb28afb6eb69d1f2d22ada2dfda90ec03d4cf81b37aca1e1770c5833c2a688c548b0388679d6e0704607940a4f631e4860781e3e9580ce236c449de0140e65d5001f3d6b90ca11f6ffb3bb346d7d0a885175e5a783ffc00c4c8365a0a8c32fba239d79b79e2454fbb0095aa0f25bc285319b3d7a1421b5fc5beabcadd54c85202b23315990354c125325b7761e09ff1b55a3b77882252c21cdeadf2276d22ade4d61bd05fcb25f40d62ff85f079ecb9aa757c1b8a9a200de772cd3affd390c2d44aa9b3da0c467bae899b30e66d6b85c520bf96b76afb2ff9831d6edbf9cb8a569005b9b36580bb0a29690ff77edb773372d82a8f505cbe107ef2d0ff60883ab83d105bec63c7469426ddb6fbd170e490203010001a321301f301d0603551d0e04160414b0082acecb3e3757fe6540b06e192d097e01924e300d06092a864886f70d01010b050003820201007d739f79f8a08819f4e2c8e8fdcc759f67ec7e8591c904689b88222cdefd95e24c1a8a922e21f1715effb3b1c31cbdd53856f842c35f97b80da5388ec84043e1698af42da5b658704222aa4773ef987e884146726289d040543e5b3f43e573b98dc9825795657620b4b8a96562bcdb3a9808ea8868476f9cb2ec184038208d60eece1f2d48a69f2d6b5c6068756831dd1608cbe7a49bb57a06dc8de7a3f62e1d9d37079b269eb93198a00f53ee6eb951ab5e3f0d0434cee6fa0fff91e1719e1cbf2ada7424376394f4b56ac61d1e220a112536f85a2ce2eb31a7b3c368344448f08f56a0335d1a5d933ba8e52c9286477a1da0a5de621bcc8c30a02967f109e61e7b72a75f6afe778fbf662e250c0d941737c7721364a5f2a5db87603ef566de7c5b5f667fe9d9a145f5984de2d286b1d4df4281e895a5d78f06ff50a00acb54d032c44a6c7ff6507d135d117c01abfb8c267bede4846dce9e122e97ae146a67ce70055f9842176a2b0e4e23aa708befafda6ecf3973d1d714f95b056bedcb8848a704db90eee0c5882ae15ad38e146334b9a2ee6aa4c604f9d1818b61285a5f495a94990b75d36e45b2da5e1acce81d95a0fb44c36c69dcab4cb01df0b90957e34450706ece999c394f4f12c30012e22e9d5a5059eae9e9793864c9585fe47629815010746e8d7281a2b140d088b108edeb99c2ee29d0f62a5816d8f313e0ba" timestamp="1783099707" url="https://atikulmunna.github.io/fdroid/repo" version="20002">
+		<description>Private, offline notes with real on-device AI. Official repo for NativeNote by atikulmunna. Add this repo to F-Droid to get updates.</description>
+	</repo>
+	<application id="com.atikulmunna.nativenote">
+		<id>com.atikulmunna.nativenote</id>
+		<added>2026-07-03</added>
+		<lastupdated>2026-07-03</lastupdated>
+		<name>NativeNote</name>
+		<summary>Private offline notes with real on-device AI</summary>
+		<desc>NativeNote is a privacy-first, offline-first notepad. Your notes live entirely
+on your device, and the AI features run as real models on the phone, not as
+cloud API calls. No account, no server, no tracking. It works in airplane mode.
+
+On-device AI (Android):
+
+* Semantic search: find notes by meaning, not just keywords.
+* Summaries: condense a long note with an on-device summarization model.
+* Ask your notes: natural-language questions answered from your own notes, with
+  tap-through citations. Fully offline.
+* Voice to note: dictate with on-device speech recognition; audio stays local.
+
+Everyday note-taking: rich text, checklists, inline images, tags, folders, and
+Markdown import/export.
+
+Privacy: local storage, optional PIN lock, and passphrase-encrypted backup.
+
+First run: the on-device AI models (~114 MB) are not bundled; the app offers to
+download them once, then runs fully offline. Core note-taking works without them.</desc>
+		<license>GPL-3.0-only</license>
+		<categories>Writing</categories>
+		<category>Writing</category>
+		<web></web>
+		<source>https://github.com/atikulmunna/offline-ai-notepad</source>
+		<tracker>https://github.com/atikulmunna/offline-ai-notepad/issues</tracker>
+		<author>atikulmunna</author>
+		<marketversion></marketversion>
+		<marketvercode>6005</marketvercode>
+		<package>
+			<version>1.3.1</version>
+			<versioncode>6005</versioncode>
+			<apkname>offline-ai-notepad-v1.3.1-arm64-v8a.apk</apkname>
+			<hash type="sha256">2b0e5e56640bc2b3d3302c0860f18d67a275c643769f7e7f373a4d89fe2b2208</hash>
+			<size>55383521</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-07-03</added>
+			<sig>3558d614e90ee897d19f05deaa915e61</sig>
+			<permissions>INTERNET,RECORD_AUDIO,com.atikulmunna.nativenote.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>arm64-v8a</nativecode>
+		</package>
+		<package>
+			<version>1.3.1</version>
+			<versioncode>5005</versioncode>
+			<apkname>offline-ai-notepad-v1.3.1-armeabi-v7a.apk</apkname>
+			<hash type="sha256">6d7482fc75066472b6e6d7944bf716b44a9989c04a57e8957e6fefd8a20dd55b</hash>
+			<size>45773685</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2026-07-03</added>
+			<sig>3558d614e90ee897d19f05deaa915e61</sig>
+			<permissions>INTERNET,RECORD_AUDIO,com.atikulmunna.nativenote.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+			<nativecode>armeabi-v7a</nativecode>
+		</package>
+	</application>
+</fdroid>

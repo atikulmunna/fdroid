@@ -1,0 +1,16 @@
+{
+  "repo": {
+    "timestamp": 1783099707000
+  },
+  "packages": {
+    "com.atikulmunna.nativenote": {
+      "metadata": {
+        "added": 1783099481000
+      },
+      "versions": {
+        "e7cc5c63ad79dc20aaea8493917771e7cda7010fa2341288117a4a7a8b5c5297": null,
+        "5d99085681f8ced2a0204a761d37d8636d4eb4536d3d40ecd684cd690429f984": null
+      }
+    }
+  }
+}

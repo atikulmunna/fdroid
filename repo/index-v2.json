@@ -1,0 +1,123 @@
+{
+  "repo": {
+    "name": {
+      "en-US": "NativeNote"
+    },
+    "description": {
+      "en-US": "Private, offline notes with real on-device AI. Official repo for NativeNote by atikulmunna. Add this repo to F-Droid to get updates."
+    },
+    "icon": {
+      "en-US": {
+        "name": "/icons/icon.png",
+        "sha256": "a6bbdd781b54c7c0d209e03db0aecae9decd552e52e081c1f366ed313d732841",
+        "size": 673
+      }
+    },
+    "address": "https://atikulmunna.github.io/fdroid/repo",
+    "timestamp": 1783099707000,
+    "categories": {
+      "Writing": {
+        "name": {
+          "en-US": "Writing"
+        }
+      }
+    }
+  },
+  "packages": {
+    "com.atikulmunna.nativenote": {
+      "metadata": {
+        "added": 1783099481000,
+        "categories": [
+          "Writing"
+        ],
+        "issueTracker": "https://github.com/atikulmunna/offline-ai-notepad/issues",
+        "lastUpdated": 1783099483000,
+        "license": "GPL-3.0-only",
+        "sourceCode": "https://github.com/atikulmunna/offline-ai-notepad",
+        "authorName": "atikulmunna",
+        "name": {
+          "en-US": "NativeNote"
+        },
+        "summary": {
+          "en-US": "Private offline notes with real on-device AI"
+        },
+        "description": {
+          "en-US": "NativeNote is a privacy-first, offline-first notepad. Your notes live entirely\non your device, and the AI features run as real models on the phone, not as\ncloud API calls. No account, no server, no tracking. It works in airplane mode.\n\nOn-device AI (Android):\n\n* Semantic search: find notes by meaning, not just keywords.\n* Summaries: condense a long note with an on-device summarization model.\n* Ask your notes: natural-language questions answered from your own notes, with\n  tap-through citations. Fully offline.\n* Voice to note: dictate with on-device speech recognition; audio stays local.\n\nEveryday note-taking: rich text, checklists, inline images, tags, folders, and\nMarkdown import/export.\n\nPrivacy: local storage, optional PIN lock, and passphrase-encrypted backup.\n\nFirst run: the on-device AI models (~114 MB) are not bundled; the app offers to\ndownload them once, then runs fully offline. Core note-taking works without them."
+        },
+        "preferredSigner": "d73a0cb34e8887f0fe2a801de83448f1787cdf8560379c92f5ddce3aefe199fe"
+      },
+      "versions": {
+        "2b0e5e56640bc2b3d3302c0860f18d67a275c643769f7e7f373a4d89fe2b2208": {
+          "added": 1783099481000,
+          "file": {
+            "name": "/offline-ai-notepad-v1.3.1-arm64-v8a.apk",
+            "sha256": "2b0e5e56640bc2b3d3302c0860f18d67a275c643769f7e7f373a4d89fe2b2208",
+            "size": 55383521
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "1.3.1",
+            "versionCode": 6005,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "d73a0cb34e8887f0fe2a801de83448f1787cdf8560379c92f5ddce3aefe199fe"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "com.atikulmunna.nativenote.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "6d7482fc75066472b6e6d7944bf716b44a9989c04a57e8957e6fefd8a20dd55b": {
+          "added": 1783099483000,
+          "file": {
+            "name": "/offline-ai-notepad-v1.3.1-armeabi-v7a.apk",
+            "sha256": "6d7482fc75066472b6e6d7944bf716b44a9989c04a57e8957e6fefd8a20dd55b",
+            "size": 45773685
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi-v7a"
+            ],
+            "versionName": "1.3.1",
+            "versionCode": 5005,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "d73a0cb34e8887f0fe2a801de83448f1787cdf8560379c92f5ddce3aefe199fe"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "com.atikulmunna.nativenote.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
